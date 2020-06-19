@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#071DBB"
+    tools:context=".First_Semester.First_semester_notes">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:background="@drawable/bg"
+            android:padding="9dp">
+
+            <Button
+                android:id="@+id/first_sem_note_micoeco"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/low_red"
+                app:layout_column="0"
+                app:layout_row="0"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_marginTop="5dp"
+                android:text="Micro\nEconomics"/>
+
+            <Button
+                android:id="@+id/first_sem_note_maths"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/pink_orange"
+                android:layout_marginLeft="5dp"
+                android:textColor="#ffffff"
+                app:layout_column="1"
+                app:layout_row="0"
+                app:layout_gravity="fill"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_marginTop="5dp"
+                android:text="Mathematics "/>
+
+            <Button
+                android:id="@+id/first_sem_note_it_application"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/sky_yellow"
+                android:layout_marginTop="8dp"
+                app:layout_column="0"
+                app:layout_row="1"
+                app:layout_gravity="fill"
+                app:layout_columnWeight="1"
+                android:textColor="#ffffff"
+                app:layout_rowWeight="1"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:text="IT Application"/>
+
+            <Button
+                android:id="@+id/first_sem_note_pom"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/proper_blue"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="5dp"
+                app:layout_column="1"
+                app:layout_row="1"
+                app:layout_gravity="fill"
+                app:layout_columnWeight="1"
+                android:textColor="#ffffff"
+                app:layout_rowWeight="1"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:text="P.O.M"/>
+
+            <Button
+                android:id="@+id/first_sem_note_english_i"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/pink_double"
+                android:layout_marginTop="8dp"
+                app:layout_column="0"
+                app:layout_row="2"
+                app:layout_gravity="fill"
+                app:layout_columnWeight="1"
+                android:textColor="#ffffff"
+                app:layout_rowWeight="1"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:text="English 'I'"/>
+
+            <Button
+                android:id="@+id/sixth_semes"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/green_double"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8dp"
+                app:layout_column="1"
+                app:layout_row="2"
+                app:layout_gravity="fill"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:text="Semester"/>
+
+
+        </androidx.gridlayout.widget.GridLayout>
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>
